@@ -1,0 +1,98 @@
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding: 12px 0px;
+	background-color: teal;
+	overflow: auto;
+}
+
+.banner {
+	position: absolute;
+	top: -30px;
+	color: white;
+	font-size: 55px;
+}
+
+.main-nav li {
+	float: right;
+	padding: 6px;
+	background-color: cornflowerblue;
+}
+
+.main-nav li:hover {
+	background-color: yellow;
+}
+
+.main-nav a {
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.main-nav a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+h2 {
+	background-image: none;
+	background-color: transparent;
+	color: white;
+}
+
+p {
+	background-image: none;
+	background-color: transparent;
+	color: white;
+}
+
+.intro {
+	display: block;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col {
+    display: block;
+	width: 48%;
+	padding-left: 1em;
+	padding-right: 1em;
+    border: solid 2px gray;
+}
+
+.col1 {
+	float: left;
+	background-image: url("../images/galaxy.jpg");
+	background-color: cyan;
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.col2 {
+	float: right;
+	background-image: url("../images/galaxy2.jpeg");
+	background-color: mediumorchid;
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
